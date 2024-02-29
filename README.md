@@ -28,9 +28,9 @@ vida[AñosDeVida]
 cont[Contador]
 factor[Factor]
 precio2[PrecioDeprecado]
-input1[\Precio <-- Precio del objeto\]
-input2[\AñosDeVida <-- Vida en años\]
-input3[\Contador <-- 0\]
+input1[\Precio = Precio del objeto\]
+input2[\AñosDeVida = Vida en años\]
+input3[\Contador = 0\]
 
 init --> precio --> vida --> cont --> factor --> precio2
 precio2 --> input1 --> input2 --> input3
@@ -44,10 +44,10 @@ no[No]
 
 input3 --> loop -->cond1
 
-step1[\Factor <-- 2 / AñosDeVida \]
-step2[\"PrecioDeprecado <-- Precio - (Factor * Precio)"\]
+step1[\Factor = 2 / AñosDeVida \]
+step2[\"PrecioDeprecado = Precio - (Factor * Precio)"\]
 step3[/Imprimir --> PrecioDeprecado/]
-step4[\"Precio <-- PrecioDeprecado"\]
+step4[\"Precio = PrecioDeprecado"\]
 
 fin([Fin])
 
