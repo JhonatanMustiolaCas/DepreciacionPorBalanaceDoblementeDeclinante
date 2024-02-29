@@ -49,8 +49,12 @@ step2[\"PrecioDeprecado <-- Precio - (Factor * Precio)"\]
 step3[/Imprimir --> PrecioDeprecado/]
 step4[\Precio <-- PrecioDeprecado\]
 
+fin([Fin])
+
 cond1 --> si -.- step1 -.- step2 -.- step3 -.- step4 --> cond1
-cond1 --> no --> Terminar
+cond1 --> no --> fin
+
+
 ```
 
 ### Ejemplo en Pascal
