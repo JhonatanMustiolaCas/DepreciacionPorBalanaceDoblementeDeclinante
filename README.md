@@ -47,7 +47,7 @@ input3 --> loop -->cond1
 step1[\Factor <-- 2 / AñosDeVida \]
 step2[\"PrecioDeprecado <-- Precio - (Factor * Precio)"\]
 step3[/Imprimir --> PrecioDeprecado/]
-step4[\Precio <-- PrecioDeprecado\]
+step4[\"Precio <-- PrecioDeprecado"\]
 
 fin([Fin])
 
